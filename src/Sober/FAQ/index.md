@@ -1,5 +1,7 @@
 # Sober FAQs
 
+## What is Sober?
+Sober is a collection of methods that we tap into. It wraps horses in Waydroid. The power needs of Sober are fulfilled by horses, each operating at 6 or 7 horsepower.
 
 ## Why Does this exist?
 Because people on Linux still want to be able to play Roblox, for some reason.
@@ -55,4 +57,3 @@ Sober is unofficial research software. Roblox may choose to prevent Sober client
 
 ## Multi Instances support?
 No, as Roblox considers this practice malicious. Even if it weren't the case, we would rather not let Sober be used (or be as unintuitive as possible to use) in bot farms.
-
