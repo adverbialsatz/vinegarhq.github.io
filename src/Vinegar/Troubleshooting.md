@@ -22,8 +22,8 @@ Ensure you have your Studio settings backed up! These can be found by pressing '
 
 ### Can't dock plugin windows
 
-This issue occurs both on Wayland and X11-based desktop environments. You may enable Virtual Desktop in Vinegar's settings
-or untick the "Allow the window manager to control the windows" option in the Advanced Wine Settings to mitigate this.
+This is an issue that affects all Wayland compositors and the majority of X11 window managers. You may enable Virtual Desktop in Vinegar's settings
+or if you're on X11, untick the "Allow the window manager to control the windows" option in the Advanced Wine Settings to mitigate this.
 
 Wine's native Wayland driver currently doesn't support this functionality and therefore doesn't offer a solution.
 
@@ -33,8 +33,10 @@ This is an issue with Xwayland, which only allows the cursor to lock when its in
 
 This can be fixed by either:
 
-- Using [Kombucha](https://github.com/vinegarhq/kombucha.git) (automatically pulled by Vinegar)
-- Switching to an X11 session
+- Using [Kombucha](https://github.com/vinegarhq/kombucha.git) instead of base Wine (automatically pulled by Vinegar)
+- Disabling Xwayland native scaling if you're on GNOME
+- Using Wine's native Wayland driver (discouraged)
+- Switching to an X11 session if available
 
 ### Exit status 53
 
